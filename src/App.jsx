@@ -7,9 +7,11 @@ import Rating from './Rating'
 import { StepBack } from 'lucide-react'
 import StepSection from './StepSection'
 import Pricing from './Pricing'
+import Footer from './Footer'
 
 const productRes=fetch("./Data.json").then(res => res.json())
 const StepRes=fetch("./StepData.json").then(res => res.json())
+const PricingRes=fetch("./Pricing.json").then(res => res.json())
 
 
 function App() {
@@ -28,6 +30,7 @@ const [coin, setCoin] = useState(0)
     }
 
     const step = use (StepRes)
+    const pricing = use (PricingRes)
 
   return (
     <>
@@ -38,7 +41,8 @@ const [coin, setCoin] = useState(0)
      <Products products={products} coin={coin} setCoin={setCoin} selected={selected} setSelected={setSelected} handleSelected={handleSelected}></Products>
      </Suspense>
      <StepSection step={step}></StepSection>
-     <Pricing></Pricing>
+     <Pricing pricing={pricing}></Pricing>
+     <Footer></Footer>
     </>
   )
 }
