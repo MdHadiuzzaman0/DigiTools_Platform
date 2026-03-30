@@ -59,10 +59,10 @@ const Cart = ({ selected, setSelected, coin, setCoin }) => {
             </div>
           </div>
 
-          <div className="mx-55 mt-5 py-4 rounded-4xl shadow-md bg-base-200">
+          <div className="mx-55 mt-5 py-4 rounded-4xl shadow-md bg-base-200 bg-gradient-to-r from-blue-600 to-purple-700 text-white">
             <button
               onClick={handleProceed}
-              className="mx-auto w-275 font-bold text-xl"
+              className="mx-auto w-275 font-bold text-2xl"
             >
               Proceed To Checkout
             </button>

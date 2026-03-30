@@ -7,8 +7,9 @@ const Navbar = ({coin, selected}) => {
     
   return (
     <div>
-      <div className="navbar bg-base-100 shadow-sm px-38 grid grid-cols-3">
-        <div className="">
+      <div className="sticky top-0 z-[100] bg-base-100/80 backdrop-blur-md shadow-sm">
+      <div className="navbar bg-base-100 shadow-sm px-38 grid grid-cols-3 ">
+        <div>
           <h1 className="btn-ghost text-3xl font-bold bg-gradient-to-r from-blue-700 to-purple-700 text-transparent bg-clip-text">DigiTools</h1>
         </div>
 
@@ -65,6 +66,7 @@ const Navbar = ({coin, selected}) => {
           <button className="font-semibold text-xl px-6 py-2 text-white rounded-3xl bg-gradient-to-r from-blue-700 to-purple-700">Get Started</button>
         </div>
 
+      </div>
       </div>
     </div>
   );

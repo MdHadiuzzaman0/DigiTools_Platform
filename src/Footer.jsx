@@ -5,7 +5,7 @@ import { FaSquareInstagram, FaSquareXTwitter } from "react-icons/fa6";
 const Footer = () => {
     return (
         <div>
-            <div className=' mx-auto py-28 px-49 bg-[#101727] text-white'>
+            <div className=' mx-auto py-20 px-49 bg-[#101727] text-white'>
                 <div className='flex justify-between gap-15'>
                     <div className='w-4/12'>
                         <h1 className='text-4xl font-extrabold'>DigiTools</h1>
