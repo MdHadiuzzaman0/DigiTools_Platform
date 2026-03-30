@@ -15,7 +15,7 @@
     "name": "Design Templates Pack",
     "description": "2000+ premium templates for social media, presentations, and marketing materials.",
     "price": 49,
-    "period": "/One-Time",
+    "period": "One-Time",
     "tag": "Popular",
     "tagType": "popular",
     "features": ["2000+ templates", "Monthlynthly updates", "Commercial license"],
@@ -48,7 +48,7 @@
     "name": "Resume Builder Pro",
     "description": "Create professional resumes and cover letters that land interviews.",
     "price": 15,
-    "period": "/One-Time",
+    "period": "One-Time",
     "tag": "New",
     "tagType": "new",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
@@ -81,10 +81,21 @@
     "name": "Email Marketing Guru",
     "description": "Design and send high-converting email campaigns with ease.",
     "price": 199,
-    "period": "/Yearly",
+    "period": "Yearly",
     "tag": "New",
     "tagType": "new",
     "features": ["Unlimited emails", "A/B testing", "Automated sequences"],
     "icon": "https://i.ibb.co/Hv6XyZ0/email.png"
+  },
+  {
+    "id": 9,
+    "name": "Cloud Storage Pro",
+    "description": "Securely store and share your large project files with end-to-end encryption.",
+    "price": 49,
+    "period": "Monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["1TB Storage", "File recovery", "Advanced sharing permissions"],
+    "icon": "/products/cloud.png"
   }
 ]
