@@ -7,12 +7,12 @@ const Navbar = ({coin, selected}) => {
     
   return (
     <div>
-      <div className="navbar bg-base-100 shadow-sm px-19 grid grid-cols-3">
-        <div>
+      <div className="navbar bg-base-100 shadow-sm px-38 grid grid-cols-3">
+        <div className="">
           <h1 className="btn-ghost text-3xl font-bold bg-gradient-to-r from-blue-700 to-purple-700 text-transparent bg-clip-text">DigiTools</h1>
         </div>
 
-        <div className="flex gap-8 justify-center font-semibold text-md">
+        <div className="flex gap-8 justify-center font-semibold text-md mr-30">
             <h3>Products</h3>
             <h3>Features</h3>
             <h3>Pricing</h3>
@@ -62,7 +62,7 @@ const Navbar = ({coin, selected}) => {
             </div>
           </div>
           <h3 className="font-semibold text-md">Login</h3>
-          <button className="font-semibold text-xl bg-amber-500 px-3 py-2 text-white rounded-3xl bg-gradient-to-r from-blue-700 to-purple-700">Get Started</button>
+          <button className="font-semibold text-xl px-6 py-2 text-white rounded-3xl bg-gradient-to-r from-blue-700 to-purple-700">Get Started</button>
         </div>
 
       </div>
