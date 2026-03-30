@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "AI Writing Pro",
-    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds.",
     "price": 29,
     "period": "Monthly",
     "tag": "Best Seller",
@@ -82,7 +82,7 @@
     "description": "Design and send high-converting email campaigns with ease.",
     "price": 199,
     "period": "/Yearly",
-    "tag": "Exclusive",
+    "tag": "New",
     "tagType": "new",
     "features": ["Unlimited emails", "A/B testing", "Automated sequences"],
     "icon": "https://i.ibb.co/Hv6XyZ0/email.png"
