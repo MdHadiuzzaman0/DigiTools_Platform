@@ -8,6 +8,7 @@ import { StepBack } from 'lucide-react'
 import StepSection from './StepSection'
 import Pricing from './Pricing'
 import Footer from './Footer'
+import Workflow from './Workflow'
 
 const productRes=fetch("./Data.json").then(res => res.json())
 const StepRes=fetch("./StepData.json").then(res => res.json())
@@ -35,13 +36,14 @@ const [coin, setCoin] = useState(0)
   return (
     <>
     <Navbar coin={coin} setCoin={setCoin} selected={selected}></Navbar>
-    <Hero></Hero>
+    {/* <Hero></Hero>
     <Rating></Rating>
     <Suspense fallback={<span className="loading loading-infinity loading-3xl block w-20 mx-auto"></span>}>
      <Products products={products} coin={coin} setCoin={setCoin} selected={selected} setSelected={setSelected} handleSelected={handleSelected}></Products>
      </Suspense>
      <StepSection step={step}></StepSection>
-     <Pricing pricing={pricing}></Pricing>
+     <Pricing pricing={pricing}></Pricing> */}
+     <Workflow></Workflow>
      <Footer></Footer>
     </>
   )
