@@ -3,6 +3,7 @@ import './App.css'
 import Products from './Products'
 import Navbar from './Navbar'
 import Hero from './Hero'
+import Rating from './Rating'
 
 const productRes=fetch("./Data.json").then(res => res.json())
 
@@ -24,10 +25,11 @@ const [coin, setCoin] = useState(0)
   return (
     <>
     <Navbar coin={coin} setCoin={setCoin} selected={selected}></Navbar>
-    <Hero></Hero>
-     <Suspense fallback={<span className="loading loading-infinity loading-3xl block w-20 mx-auto"></span>}>
+      {/* <Hero></Hero> */}
+      <Rating></Rating>
+     {/* <Suspense fallback={<span className="loading loading-infinity loading-3xl block w-20 mx-auto"></span>}>
      <Products products={products} coin={coin} setCoin={setCoin} selected={selected} setSelected={setSelected} handleSelected={handleSelected}></Products>
-     </Suspense>
+     </Suspense> */}
     </>
   )
 }
