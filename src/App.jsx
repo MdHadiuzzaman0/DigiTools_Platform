@@ -11,9 +11,9 @@ import Footer from './Footer'
 import Workflow from './Workflow'
 import { ToastContainer } from 'react-toastify'
 
-const productRes=fetch("/Data.json").then(res => res.json())
-const StepRes=fetch("/StepData.json").then(res => res.json())
-const PricingRes=fetch("/Pricing.json").then(res => res.json())
+const productRes=fetch("./Data.json").then(res => res.json())
+const StepRes=fetch("./StepData.json").then(res => res.json())
+const PricingRes=fetch("./Pricing.json").then(res => res.json())
 
 
 function App() {
