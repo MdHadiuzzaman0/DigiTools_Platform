@@ -9,10 +9,11 @@ import StepSection from './StepSection'
 import Pricing from './Pricing'
 import Footer from './Footer'
 import Workflow from './Workflow'
+import { ToastContainer } from 'react-toastify'
 
-const productRes=fetch("./Data.json").then(res => res.json())
-const StepRes=fetch("./StepData.json").then(res => res.json())
-const PricingRes=fetch("./Pricing.json").then(res => res.json())
+const productRes=fetch("/Data.json").then(res => res.json())
+const StepRes=fetch("/StepData.json").then(res => res.json())
+const PricingRes=fetch("/Pricing.json").then(res => res.json())
 
 
 function App() {
@@ -35,6 +36,7 @@ const [coin, setCoin] = useState(0)
 
   return (
     <>
+    
     <div className='space-y-30'>
     <Navbar coin={coin} setCoin={setCoin} selected={selected}></Navbar>
     <Hero></Hero>
@@ -42,6 +44,7 @@ const [coin, setCoin] = useState(0)
     <Suspense fallback={<span className="loading loading-infinity loading-3xl block w-20 mx-auto"></span>}>
     <Products products={products} coin={coin} setCoin={setCoin} selected={selected} setSelected={setSelected} handleSelected={handleSelected}></Products>
     </Suspense>
+    <ToastContainer />
     <StepSection step={step}></StepSection>
     <Pricing pricing={pricing}></Pricing>
     <Workflow></Workflow>

@@ -1,8 +1,10 @@
 import { CiShoppingCart } from "react-icons/ci";
 import React from "react";
+import { toast } from "react-toastify";
 
 const Cart = ({ selected, setSelected, coin, setCoin }) => {
   function handleDlt(clickedCard) {
+    toast.error("Removed from cart", {autoClose: 1500,})
     const updatedSelectedList = selected.filter(
       (selectedCard) => selectedCard.name !== clickedCard.name,
     );
@@ -11,6 +13,7 @@ const Cart = ({ selected, setSelected, coin, setCoin }) => {
   }
 
   function handleProceed() {
+    toast.info("Proceed to checkout", {autoClose: 1500,})
     setSelected([]);
     setCoin(0);
   }

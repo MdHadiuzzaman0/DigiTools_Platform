@@ -1,9 +1,11 @@
 import { Check } from "lucide-react";
 import React from "react";
+import { toast } from "react-toastify";
 
 const SingleCard = ({ product, handleSelected, selected }) => {
 
     function handleBuy(){
+      toast.success("Added to cart", {autoClose: 1500,})
       handleSelected(product)
     }
 
