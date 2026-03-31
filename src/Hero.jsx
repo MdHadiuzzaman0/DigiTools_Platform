@@ -5,7 +5,7 @@ import { CiPlay1 } from "react-icons/ci";
 const Hero = () => {
   return (
     <div>
-      <div className="px-38 mt-20 flex justify-evenly items-center gap-1">
+      <div className="px-38 flex justify-evenly items-center gap-1">
         <div className=" w-170 space-y-3">
           <h3 className="bg-[#E1E7FF] w-70 text-center rounded-xl px-3 py-1"><FaCircleDot className="inline text-blue-300" /> <span className="bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">New: AI-Powered Tools Available</span></h3>
 

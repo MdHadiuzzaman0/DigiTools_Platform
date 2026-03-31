@@ -4,11 +4,11 @@ import { Check } from "lucide-react";
 const Pricing = ({pricing}) => {
     return (
         <div>
-            <div className='px-39 mt-20'>
+            <div className='px-39'>
             <h1 className='text-5xl font-extrabold mt-15 text-center'>Simple, Transparent Pricing</h1>
             <h3 className='text-center mt-3 mb-9'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</h3>
 
-            <div className='grid grid-cols-3'>
+            <div className='grid grid-cols-3 gap-15'>
                 {pricing.map(singleCard => 
                    <div className={`relative w-96 shadow-md border border-base-300  px-10 py-9 rounded-xl ${singleCard.plan_name === "Pro" ? "bg-gradient-to-r from-blue-600 to-purple-700 text-white" : "bg-base-200"}`}>
                        

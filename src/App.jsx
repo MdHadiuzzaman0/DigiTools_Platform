@@ -35,6 +35,7 @@ const [coin, setCoin] = useState(0)
 
   return (
     <>
+    <div className='space-y-30'>
     <Navbar coin={coin} setCoin={setCoin} selected={selected}></Navbar>
     <Hero></Hero>
     <Rating></Rating>
@@ -44,6 +45,7 @@ const [coin, setCoin] = useState(0)
     <StepSection step={step}></StepSection>
     <Pricing pricing={pricing}></Pricing>
     <Workflow></Workflow>
+    </div>
     <Footer></Footer>
     </>
   )

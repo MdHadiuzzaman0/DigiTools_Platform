@@ -24,7 +24,7 @@ const Products = ({products, coin, setCoin, selected, setSelected, handleSelecte
 
     return (
         <div>
-            <h1 className='text-5xl font-extrabold mt-15 text-center'>Premium Digital Tools</h1>
+            <h1 className='text-5xl font-extrabold text-center'>Premium Digital Tools</h1>
             <h3 className='text-center mt-3'>Choose from our curated collection of premium digital products designed <br/>  to boost your productivity and creativity.</h3>
             
             <div className='w-68  mx-auto rounded-2xl mt-15 font-bold text-lg border-0 shadow-sm p-1'>

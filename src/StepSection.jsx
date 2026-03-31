@@ -3,8 +3,8 @@ import React from 'react';
 const StepSection = ({step}) => {
     return (
         <div>
-            <div className='px-39 mt-20'>
-            <h1 className='text-5xl font-extrabold mt-15 text-center'>Get Started in 3 Steps</h1>
+            <div className='px-39 py-30 bg-[#F1F1F1]/60'>
+            <h1 className='text-5xl font-extrabold text-center'>Get Started in 3 Steps</h1>
             <h3 className='text-center mt-3 mb-9'>Start using premium digital tools in minutes, not hours.</h3>
 
             <div className='grid grid-cols-3 gap-15'>
