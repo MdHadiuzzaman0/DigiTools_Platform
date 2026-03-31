@@ -1,3 +1,8 @@
+<p align="center">
+<img width="900" height="900" alt="DigiTools" src="https://github.com/user-attachments/assets/29aa1e5e-42f3-4875-9fd0-5aadd05f2344" />
+</p>
+
+
 <h1 align="center">
  DigiTools - Premium Digital Marketplace
 </h1>
