@@ -6,7 +6,7 @@
 **DigiTools-Platform** is a modern, responsive digital product marketplace interface. It provides a seamless experience for users to browse premium digital tools, manage a dynamic shopping cart, and choose between various subscription plans. <hr></hr>
 
 ## 🔗 Live Link
-👉 https://mdhadiuzzaman0.github.io/Payoo_Mobile_Banking_App/
+👉 https://mdhadiuzzaman0.github.io/DigiTools_Platform/
 <hr></hr>
 
 ## 🛠️ Technologies Used
