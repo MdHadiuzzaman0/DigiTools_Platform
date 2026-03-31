@@ -1,16 +1,49 @@
-# React + Vite
+<p align="center">
+<img width="900" height="900" alt="DigiTools" src="https://github.com/user-attachments/assets/29aa1e5e-42f3-4875-9fd0-5aadd05f2344" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<h1 align="center">
+ DigiTools - Premium Digital Marketplace
+</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📖 OverView
+**DigiTools-Platform** is a modern, responsive digital product marketplace interface. It provides a seamless experience for users to browse premium digital tools, manage a dynamic shopping cart, and choose between various subscription plans. <hr></hr>
 
-## React Compiler
+## 🔗 Live Link
+👉 https://mdhadiuzzaman0.github.io/DigiTools_Platform/
+<hr></hr>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
+This project is built with a modern web stack for speed and scalability:
 
-## Expanding the ESLint configuration
+- **React.js:** Powering the component-based architecture and state management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Tailwind CSS:** Used for rapid, custom UI styling and responsive layouts.
+
+- **DaisyUI:** Utilized for polished, pre-built components like the Navbar and interactive buttons.
+
+- **Lucide React:** Integrated for clean, consistent vector icons across the platform.
+
+- **Vite:** Used as the lightning-fast build tool and development server. <hr></hr>
+
+
+## ✨ Key Features
+**1. Dynamic Shopping Cart & State Persistence**
+- **One-Click Add:** Users can instantly add any digital tool to their cart using the "Buy Now" button.
+
+- **Real-Time Sync:** The item count and total price (Subtotal) update immediately across the Navbar and Cart views.
+
+- **Centralized State:** All cart data and the total balance (coin) are managed in App.jsx to ensure data consistency.
+ 
+- **Duplicate Control:** The system checks if an item is already selected, preventing duplicate entries and changing the button text to "Added to cart".
+
+- **Interactive Removal:** Users can delete items directly from the Cart, which automatically subtracts the price from the total.
+
+- **Live Indicators:** A dynamic badge on the Navbar cart icon provides constant visual feedback on the number of items selected.
+
+- **Auto-Reset:** The "Proceed to Checkout" feature clears the cart and resets the total, completing the user transaction flow.
+
+
+**2. Interactive Pricing Tiers**
+The platform features a clearly categorized pricing section with Starter, Pro, and Enterprise plans. The "Pro" plan is visually highlighted with a unique gradient background and a "Most Popular" badge to drive user engagement.
